@@ -1,0 +1,56 @@
+# ==========================
+# Virtual Environments
+# ==========================
+stocklive/
+.venv/
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+
+# Environment Variables
+.env
+.env.*
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# JetBrains
+.idea/
+
+# Logs
+logs/
+*.log
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model Checkpoints
+checkpoints/
+*.pt
+*.pth
+*.onnx
+*.ckpt
+
+# Cache
+.cache/
+.pytest_cache/
+
+# Data Cache
+data/cache/
+data/raw/
+
+# OS
+Thumbs.db
+.DS_Store
